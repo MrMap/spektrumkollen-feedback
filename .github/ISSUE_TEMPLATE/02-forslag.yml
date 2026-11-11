@@ -1,0 +1,46 @@
+{
+  "name": "Föreslå förbättring eller funktion",
+  "description": "Berätta vad som skulle göra Spektrumkollen mer användbar eller begriplig.",
+  "title": "[Förslag]: ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Tack för att du hjälper oss att förbättra Spektrumkollen! Sök gärna bland befintliga ärenden först och komplettera ett befintligt ärende om det handlar om samma sak.\n\n**Allt du skickar här blir offentligt**, inklusive bilagor. Utelämna personuppgifter, lösenord och annan känslig information. Kontrollera även skärmbilder. Spektrumkollen är ett ideellt hobbyprojekt; vi kan inte lova svarstid eller att alla förslag genomförs."
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "need",
+      "attributes": {
+        "label": "Vilket behov vill du lösa?",
+        "description": "Beskriv en situation där något saknas eller kan bli enklare eller tydligare."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "suggestion",
+      "attributes": {
+        "label": "Vad föreslår du?",
+        "description": "Beskriv din idé och vem den skulle hjälpa. Du behöver inte veta hur den ska byggas."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "context",
+      "attributes": {
+        "label": "Exempel eller komplettering",
+        "description": "Valfritt: skiss, skärmbild, länk från Dela vy eller hur du löser behovet i dag."
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}
