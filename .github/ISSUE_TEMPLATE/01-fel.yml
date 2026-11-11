@@ -1,0 +1,93 @@
+{
+  "name": "Rapportera fel",
+  "description": "Berätta om något som inte fungerar eller en uppgift som verkar felaktig.",
+  "title": "[Fel]: ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Tack för att du hjälper oss att förbättra Spektrumkollen! Sök gärna bland befintliga ärenden först och komplettera ett befintligt ärende om det handlar om samma sak.\n\n**Allt du skickar här blir offentligt**, inklusive bilagor. Utelämna personuppgifter, lösenord och annan känslig information. Kontrollera även skärmbilder. Spektrumkollen är ett ideellt hobbyprojekt; vi kan inte lova svarstid eller att alla förslag genomförs."
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "problem",
+      "attributes": {
+        "label": "Vad hände och vad förväntade du dig?",
+        "description": "Beskriv felet så konkret du kan. Även fel i texter eller frekvensuppgifter är välkomna."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "steps",
+      "attributes": {
+        "label": "Hur kan vi återskapa felet?",
+        "description": "Beskriv vad du klickade på eller gjorde. Om du inte vet, skriv det."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "view",
+      "attributes": {
+        "label": "Vilken del gäller det?",
+        "options": [
+          "SSA-vyn",
+          "PTS-vyn",
+          "EM-vyn",
+          "Flera vyer eller appen i allmänhet",
+          "Vet inte"
+        ]
+      }
+    },
+    {
+      "type": "input",
+      "id": "version",
+      "attributes": {
+        "label": "Version av Spektrumkollen",
+        "description": "Om du hittar versionsnumret i sidfoten, ange det här."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "input",
+      "id": "environment",
+      "attributes": {
+        "label": "Enhet och webbläsare",
+        "description": "Exempel: Windows 11, Chrome, dator; eller iPad, Safari."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "input",
+      "id": "view-link",
+      "attributes": {
+        "label": "Länk till vyn",
+        "description": "Klistra gärna in en länk från Dela vy. Utelämna lokala filsökvägar."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "attachments",
+      "attributes": {
+        "label": "Skärmbilder och övrig information",
+        "description": "Du kan bifoga en skärmbild här. Vid misstänkt faktafel: ange gärna källa och frekvensintervall."
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}
